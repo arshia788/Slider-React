@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'IRANSansX-Light';
+    src: url(./fonts/IRANSansX-Light.woff) format('woff'); 
+  }
+  
+  *{
+    padding: 0;
+    font-family: 'IRANSansX-Light';
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+  }
+  
+  body{
+    background-color: #e3e3e3;
+  }
+  
+  
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  
+  .reviews{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgba(137, 137, 137, 1);
+    padding: 30px;
+    margin-top: 20px;
+    width: 350px;
+    position: relative;
+  }
+  
+  .holder-img img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid crimson;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .author{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+  
+  .holder-info p{
+    padding: 5px 0;
+  }
+  
+  .holder-info .job{
+    color: crimson;
+    font-weight: bolder;
+  }
+  
+  .job-info{
+    color: #555;
+  }
+  
+  .holder-buttons{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 10px;
+    bottom: 20px;
+  }
+  
+  .holder-buttons button{
+    border: none;
+    background: transparent;
+    outline: none;
+    color: crimson;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
